@@ -36,7 +36,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task3.V2
 
             DataService ds = new DataService();
 
-            var result = ds.GetMaxCharCount("strings", 's');
+            var result = ds.GetMaxCharCount("asdzzz vfvfzz v gthvz", 'z');
             Console.WriteLine(result);
             Console.ReadKey();
         }

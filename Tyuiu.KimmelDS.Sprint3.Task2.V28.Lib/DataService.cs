@@ -11,6 +11,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task2.V28.Lib
             do
             {
                 result = (Math.Pow(2, k) /  (k + 1)) * Math.Cos(1.8);
+                k++;
             } while (k <= stopValue);
 
             return result;

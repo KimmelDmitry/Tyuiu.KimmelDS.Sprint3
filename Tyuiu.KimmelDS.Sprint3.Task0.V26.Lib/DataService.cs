@@ -15,7 +15,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task0.V26.Lib
 
             res *= Math.Cos(1.8);
 
-            return -15.642;
+            return res;
         }
 
     }

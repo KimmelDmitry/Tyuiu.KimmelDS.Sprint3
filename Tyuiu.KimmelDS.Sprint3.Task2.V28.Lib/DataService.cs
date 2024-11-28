@@ -12,9 +12,9 @@ namespace Tyuiu.KimmelDS.Sprint3.Task2.V28.Lib
             {
                 result = (Math.Pow(2, k) /  (k + 1)) * Math.Cos(1.8);
                 k++;
-            } while (k <= stopValue);
+            } while (k < stopValue);
 
-            return -15.642;
+            return result;
         }
     }
 }

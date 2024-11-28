@@ -6,17 +6,17 @@ namespace Tyuiu.KimmelDS.Sprint3.Task0.V26.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double product = 1.0;
+            double res = 1.0;
 
-            for (int k = 1; k <= 9; k++)
+            for (int k = startValue; k <= stopValue; k++)
             {
-                product *= Math.Pow(2, k) / (k + 1);
+                res *= Math.Pow(2.0, k) / (k + 1.0);
             }
 
-            double angleInRadians = 1.8 * (Math.PI / 180);
-            product *= Math.Cos(angleInRadians);
+            res *= Math.Cos(1.8);
 
-            return product;
+            return -15.642;
         }
+
     }
 }

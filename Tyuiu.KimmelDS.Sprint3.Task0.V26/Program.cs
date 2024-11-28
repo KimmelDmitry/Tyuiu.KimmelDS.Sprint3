@@ -36,7 +36,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task0.V26
 
             DataService ds = new DataService();
 
-            var result = ds.GetMultiplySeries(1, 2);
+            var result = ds.GetMultiplySeries(1, 9);
             Console.WriteLine(result);
             Console.ReadKey();
         }

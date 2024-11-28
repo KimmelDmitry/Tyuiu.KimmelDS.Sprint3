@@ -36,7 +36,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task4.V8
 
             DataService ds = new DataService();
 
-            var result = ds.Calculate(2, 5);
+            var result = ds.Calculate(-5, 5);
             Console.WriteLine(result);
             Console.ReadKey();
         }

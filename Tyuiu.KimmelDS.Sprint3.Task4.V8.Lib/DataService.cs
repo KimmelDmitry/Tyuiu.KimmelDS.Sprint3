@@ -8,7 +8,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task4.V8.Lib
         {
             double result = 1; 
 
-            for (double x = startValue; x <= stopValue; x += 0.1) 
+            for (double x = startValue; x <= stopValue; x++) 
             {
                 try
                 {
@@ -24,7 +24,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task4.V8.Lib
                     Console.WriteLine($"Ошибка: Деление на ноль при x = {x}");
                 }
             }
-            return result;
+            return Math.Round(result, 3); 
         }
     }
 }

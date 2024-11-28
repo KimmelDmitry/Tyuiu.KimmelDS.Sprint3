@@ -8,10 +8,15 @@ namespace Tyuiu.KimmelDS.Sprint3.Task0.V26.Lib
         {
             double product = 1.0;
 
-            for (int k = startValue; k <= stopValue; k++)
+            for (int k = 1; k <= 9; k++)
+            {
                 product *= Math.Pow(2, k) / (k + 1);
+            }
 
-            return product * Math.Cos(1.8);
+            double angleInRadians = 1.8 * (Math.PI / 180);
+            product *= Math.Cos(angleInRadians);
+
+            return product;
         }
     }
 }

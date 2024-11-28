@@ -10,7 +10,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task5.V24.Lib
             for (int i = startValue1; i <= stopValue1; i++)
                 for (int k = startValue2; k <= stopValue2; k++)
                     y += (Math.Pow(x, k) + 2) * Math.Sin(k);
-            return y; 
+            return Math.Round(y, 3); 
         }
     }
 }

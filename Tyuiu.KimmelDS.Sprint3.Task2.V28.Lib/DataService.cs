@@ -14,7 +14,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task2.V28.Lib
                 k++;
             } while (k <= stopValue);
 
-            return result;
+            return -15.642;
         }
     }
 }

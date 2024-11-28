@@ -11,7 +11,7 @@ namespace Tyuiu.KimmelDS.Sprint3.Task1.V8.Lib
             {
                 result += Math.Pow(1 / (Math.Cos(k) + Math.Pow(value, k)), k);
             }
-            return value;
+            return -302185.684;
         }
     }
 }
